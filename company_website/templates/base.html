@@ -7,6 +7,7 @@
 
     <!-- bulma CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="{% static "css/custom.css" %}">
     <!-- Font Awesome 5 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- bulma carousel -->
@@ -16,13 +17,13 @@
     <nav class="navbar has-shadow is-spaced">
         <div class="container">
             <div class="navbar-brand">
-                <a class="navbar-item" href="#">
+                <a class="navbar-item" href="/">
                     <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
                 </a>
-                <a class="navbar-item" href="#">ABOUT US</a>
+                <a class="navbar-item" href="/about">ABOUT US</a>
                 <a class="navbar-item" href="#">PRODUCTS</a>
-                <a class="navbar-item" href="#">TECHNOLOGIES</a>
-                <a class="navbar-item" href="#">SUPPORT</a>
+                <a class="navbar-item" href="/technologies">TECHNOLOGIES</a>
+                <a class="navbar-item" href="/support">SUPPORT</a>
             </div>
         </div>
     </nav>

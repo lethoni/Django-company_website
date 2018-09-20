@@ -1,0 +1,25 @@
+.other-banner{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.news-article{
+	margin: auto;
+	width: 90%;
+    padding: 20px;
+}
+
+.banner-pic{
+	top: 10px;
+	bottom: 10px;
+	z-index:-1;
+	position:relative;
+}
+
+.support-text{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

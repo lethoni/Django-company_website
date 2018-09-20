@@ -9,13 +9,13 @@ Home
 <div class='carousel carousel-animated carousel-animate-slide' data-autoplay="true">
   <div class='carousel-container'>
     <div class='carousel-item has-background is-active'>
-      <img class="is-background" src="{% static "image/banner-1.jpg" %}" alt=""/>
+        <a href="#"><img class="is-background" src="{% static "image/banner-1.jpg" %}" alt=""/></a>
     </div>
     <div class='carousel-item has-background'>
-      <img class="is-background" src="{% static "image/banner-2.jpg" %}" alt=""/>
+        <a href="#"><img class="is-background" src="{% static "image/banner-2.jpg" %}" alt=""/></a>
     </div>
     <div class='carousel-item has-background'>
-      <img class="is-background" src="{% static "image/banner-3.jpg" %}" alt=""/>
+        <a href="#"><img class="is-background" src="{% static "image/banner-3.jpg" %}" alt=""/></a>
     </div>
   </div>
   <div class="carousel-navigation is-overlay">
@@ -31,6 +31,63 @@ Home
     </div>
   </div>
 </div>
+
+
+<div class="tile is-ancestor">
+  <div class="tile is-parent">
+    <div class="tile is-child box">
+        <figure class="image is-5by4">
+            <a href="#"><img src="{% static "image/banner-640x480.jpg" %}"></a>
+        </figure>
+        <div>
+            <p class="title">One</p>
+            <p>With an image</p>
+            <p>more content</p>
+            <a class="tag is-danger" href="#">learn more ></a>
+        </div>
+    </div>
+  </div>
+  <div class="tile is-parent">
+    <div class="tile is-child box">
+        <figure class="image is-5by4">
+            <a href="#"><img src="{% static "image/banner-640x480.jpg" %}"></a>
+        </figure>
+        <div>
+            <p class="title">Two</p>
+            <p>With an image</p>
+            <p>more content</p>
+            <a class="tag is-danger" href="#">learn more ></a>
+        </div>
+    </div>
+  </div>
+  <div class="tile is-parent">
+    <div class="tile is-child box">
+        <figure class="image is-5by4">
+            <a href="#"><img src="{% static "image/banner-640x480.jpg" %}"></a>
+        </figure>
+        <div>
+            <p class="title">Three</p>
+            <p>With an image</p>
+            <p>more content</p>
+            <a class="tag is-danger" href="#">learn more ></a>
+        </div>
+    </div>
+  </div>
+  <div class="tile is-parent">
+    <div class="tile is-child box">
+        <figure class="image is-5by4">
+            <a href="#"><img src="{% static "image/banner-640x480.jpg" %}"></a>
+        </figure>
+        <div>
+            <p class="title">Four</p>
+            <p>With an image</p>
+            <p>more content</p>
+            <a class="tag is-danger" href="#">learn more ></a>
+        </div>
+    </div>
+  </div>
+</div>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', function(){
